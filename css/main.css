@@ -8,7 +8,7 @@ body
 	font-family: "Transformers Movie";
 }
 
-.stage2
+.stage
 {
 	position: fixed;
 	top: 0;
@@ -23,7 +23,7 @@ body
 	transition: opacity 400ms ease-in;
 	pointer-events: none;
 }
-.stage2 {
+.stage {
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -38,12 +38,12 @@ body
 	pointer-events: none;
 }
 
-.stage2:target {
+.stage:target {
 	opacity:1;
 	pointer-events: auto;
 }
 
-.stage2 > div {
+.stage > div {
 	width: 400px;
 	position: relative;
 	margin: 10% auto;
