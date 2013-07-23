@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+#diamondOne {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 280px;
+	height: 200px;
+	/* [disabled]margin-bottom: 100px; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 21%;
+}
+
+#topOne div{
+  float:left;
+}
+#bottomOne div{
+  float:left;
+}
+.face {
+  height:0;
+  width:0;
+  margin-left:-45px;
+  margin-right:-45px;
+  border:50px solid transparent;
+  border-top:40px solid #888;
+  border-bottom:0px solid transparent;
+}
+
+.faceup {
+  height:0;
+  width:0;
+  border:50px solid transparent;
+  border-top:5px solid transparent;
+  border-bottom:40px solid #888;
+}
+
+.facedown {
+  height:0;
+  width:0;
+  margin:7px 0;
+  padding:0;
+  border:50px solid transparent;
+  border-top:140px solid #888;
+}
+
+.left {border-left:30px solid transparent;}
+.right {border-right:30px solid transparent;}
+
+.left2 {margin-left:55px;
+  margin-right:-45px;
+  border-right:30px solid transparent;
+  -webkit-transform:skew(30deg,0deg);
+  -moz-transform:skew(30deg,0deg);
+  -o-transform:skew(30deg,0deg);
+  transform:skew(30deg,0deg);
+}
+.right2 {margin-left:-45px;
+  border-left:30px solid transparent;
+-webkit-transform:skew(-30deg,0deg);
+-moz-transform:skew(-30deg,0deg);
+-o-transform:skew(-30deg,0deg);
+transform:skew(-30deg,0deg);}
+
+.face:hover {
+	border-top:40px solid #dd4e0d;
+}
+
+.faceup:hover {
+  border-bottom:40px solid #dd4e0d;
+}
+
+.facedown:hover {
+  border-top:140px solid #dd4e0d;
+}
+
